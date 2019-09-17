@@ -1,0 +1,7 @@
+1 countries(id, country)
+2 cities(id, city,country_id)
+3 hotels (id, hotel, city_id, country_id, stars, price, info)
+4 images(id, hotel_id, image_path)
+5 roles(id, role)
+6 users (id, login, password, email, role_id, discount, avatar)
+phpMyAdmin(root, '')
